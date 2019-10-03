@@ -19,6 +19,7 @@ header {
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
+  padding:15px 0px;
 }
 header .headline{
     font-size: 32px;
@@ -110,6 +111,23 @@ main {
   color: #fff;
   font-size: 11px;
 }
+
+.pagination{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.pagination p {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  color: white;
+  background-color: #acabab;
+  border-radius: 3px;
+  margin: 0px 5px;
+  line-height: 30px;
+}
+
 .sidebar {
   width: 230px;
   float: left;
